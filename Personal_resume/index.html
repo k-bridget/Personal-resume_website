@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bridget-Resume</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav id="navbar">
+      <div class="Resume">My Resume</div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I’m <strong>Bridget Karungi</strong>, a committed and enthusiastic individual with demonstrated leadership skills and practical experience as a personal assistant in a disability services organization. I am currently learning new skills in HTML, CSS, and JavaScript and I'm eager to work with different teams to solve real-world problems.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="my-skills">
+      <li>HTML, CSS, Python, Linux</li>
+      <li>Leadership skills</li>
+      <li>Communication skills</li>
+      <li>Version control:Git & GitHub</li>
+    </ul>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education">
+    <h2>Education</h2>
+    <div class="education-background">
+      <h3>Africa Leadership University</h3>
+      <p>Pursuing a Bachelors in Software Engineering</p>
+      <p><em>Year: 2024-2028</em></p>
+    </div>
+    <div class="education-background">
+      <h3>High School</h3>
+      <p>King David Academy</p>
+      <p><em>Year: 2017-2023</em></p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Personal Resume Website</h3>
+      <p>A personal resume created with HTML, CSS and JavaScript</p>
+      <p><a href="https://github.com/k-bridget/Personal-resume_website.git" target="_blank">Live Demo</a></p>
+    </div>
+    <div class="project">
+      <h3>Currency Converter</h3>
+      <p>This is a currency converter with HTML, CSS and JavaScript</p>
+      <p><a href="https://github.com/k-bridget/python-class-projects.git" target="_blank">Live Demo</a></p>
+    </div>
+    <div class="project">
+      <h3>Programming</h3>
+      <p><a href="https://github.com/k-bridget/alu-higher_level_programming.git" target="_blank">Live Demo</a>.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+<section id="contact">
+  <h2>Contact Me</h2>
+
+  <!-- Message Form -->
+  <form id="contact-form">
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" required>
+
+    <label for="email">Your Email:</label>
+    <input type="email" id="email" required>
+
+    <label for="message">Your Message:</label>
+    <textarea id="message" rows="5" required></textarea>
+
+    <button type="submit">Send Message</button>
+
+    <p id="form-status"></p>
+  </form>
+</section>
+
+<!-- Link to JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>
